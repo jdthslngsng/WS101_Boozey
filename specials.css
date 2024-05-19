@@ -1,0 +1,871 @@
+/* Extra small device */
+@media only screen and (max-width: 768px) {
+        #header-img {
+            width: 100%;
+            height: 300px;
+            filter: blur(1px);
+            -webkit-filter: blur(1px);
+            opacity: 65%;
+        }
+    
+        .header-text {
+            position: absolute;
+            top: 35%;
+            text-align: center;
+            margin-top: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    
+        body {
+            line-height: 30px;
+            background-color: black;
+        }
+    
+        section, footer {
+            margin-top: 60px;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    
+        h1, h2, h3, h4, p {
+            color: white;
+        }
+    
+        h3, p {
+            text-align: center;
+        }
+    
+        p {
+            font-family: 'Avalon';
+            letter-spacing: 1px;
+            font-size: 12px;
+        }
+    
+        h3 {
+            font-size: 20px;
+            font-family: 'Aladin';
+            letter-spacing: 3px;
+            font-weight: 600;
+            color: #f1ac35;
+        }
+    
+        .icon-text {
+            display: block; 
+            text-align: center;
+        }
+    
+        .icon-text i {
+            font-size: 20px; 
+            padding-right: 0;
+            padding-bottom: 5px;
+        }
+    
+        .header-text h1 {
+            font-family: 'Aladin';
+            font-size: 25px; 
+            font-weight: 500;
+            padding-top: 15px;
+            color: #f1ac35;
+            letter-spacing: 2px;
+            text-align: center;
+            margin-top: 10px;
+        }
+    
+        .header-text p {
+            font-size: 12px;
+            padding-top: 10px;
+            font-family: "Aladin", system-ui;
+            letter-spacing: 2px;
+            line-height: 20px;
+            text-align: center;
+        }
+    
+        i {
+            color: #f1ac35;
+        }
+    
+        .footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px; 
+            height: 50px;
+        }
+    
+        .footer .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    
+        .footer .row a {
+            text-decoration: none;
+            margin: 0 5px;
+        }
+    
+        .footer .row a i {
+            font-size: 20px;
+            padding: 5px;
+            color: #f1ac35;
+        }
+    
+        .footer .row a i:hover {
+            color: white;
+            transition: 0.3s ease;
+        }
+    
+        header {
+            position: relative;
+            text-align: center;
+        }
+        .navbar {
+            height: 70px; 
+            background-color: rgba(0, 0, 0, 0.600);
+            backdrop-filter: blur(5px);
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            align-items: center;
+            position: fixed;
+            z-index: 100;
+            justify-content: space-between;
+          }
+          
+          .nav-menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center; 
+            margin-left: auto;
+            margin-right: auto; 
+          }
+          
+          .nav-menu a {
+            font-family: 'Avalon';
+            src: url('Avalon-Book.ttf') format('truetype');
+            font-weight: normal;
+            color: #f1ac35;
+            font-size: 12px;
+            margin-left: 5px;
+            margin-right: 15px;
+          }
+          
+          #logo {
+            width: 75px; 
+            height: auto; 
+            margin-left: auto;
+            margin-right: auto; 
+          }
+          
+          .nav-menu a:hover {
+            color: white;
+            text-decoration: none;
+            transition: 0.3s ease;
+          }
+
+
+          .specials {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin-top: 20px;
+          }
+          
+          .item {
+            width: 300px;
+            margin: auto;
+          }
+        
+          .item img {
+            width: 300px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+          }
+          
+          #img1
+          {
+            height: 375px;
+          }
+        
+          #img2, #img3
+          {
+            height: 200px;
+            margin-top: 20px;
+          }
+        
+          .description {
+            width: 300px;
+            font-family: 'Avalon Md Cd';
+            src: url('Avalon-MediumCond.ttf') format('truetype');
+            background-color: #f1ac3592;
+            color: white;
+            padding: 10px;
+            border-radius: 0 0 15px 15px;
+            font-size: 12px;
+            letter-spacing: 2px;
+            text-align: center;
+          }
+}
+
+/* Small devices */
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    #header-img {
+        width: 100%;
+        height: 450px;
+        filter: blur(2px);
+        -webkit-filter: blur(2px);
+        opacity: 65%;
+    }
+
+    .header-text {
+        position: absolute;
+        top: 30%;
+        left: 15%;
+        text-align: center;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    body {
+        line-height: 30px;
+        background-color: black;
+    }
+
+    section, footer {
+        margin-top: 90px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    h1, h2, h3, h4, p {
+        color: white;
+    }
+
+    h3, p {
+        text-align: center; 
+    }
+
+    p {
+        font-family: 'Avalon';
+        letter-spacing: 1px;
+        font-size: 14px; 
+    }
+
+    h3 {
+        font-size: 25px; 
+        font-family: 'Aladin';
+        letter-spacing: 3px;
+        font-weight: 600;
+        color: #f1ac35;
+    }
+
+    .icon-text {
+        display: block; 
+        text-align: center;
+    }
+
+    .icon-text i {
+        font-size: 20px;
+        padding-right: 0;
+        padding-bottom: 5px;
+    }
+
+    .header-text h1 {
+        font-family: 'Aladin';
+        font-size: 35px; 
+        font-weight: 500;
+        padding-top: 15px;
+        color: #f1ac35;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .header-text p {
+        font-size: 25px;
+        padding-top: 10px;
+        font-family: "Aladin", system-ui;
+        letter-spacing: 2px;
+        line-height: 50px;
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    i {
+        color: #f1ac35;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        height: 50px; 
+    }
+
+    .footer .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .footer .row a {
+        text-decoration: none;
+        margin: 0 5px; 
+    }
+
+    .footer .row a i {
+        font-size: 20px; 
+        padding: 5px; 
+        color: #f1ac35;
+    }
+
+    .footer .row a i:hover {
+        color: white;
+        transition: 0.3s ease;
+    }
+
+    header {
+        position: relative;
+        text-align: center;
+    }
+
+    .navbar {
+        height: 60px;
+        background-color: rgba(0, 0, 0, 0.600);
+        backdrop-filter: blur(5px);
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        position: fixed;
+        z-index: 100;
+      }
+      
+      .nav-menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+      }
+      
+      .nav-menu a {
+        font-family: 'Avalon';
+        src: url('Avalon-Book.ttf') format('truetype');
+        font-weight: normal;
+        color: #f1ac35;
+        font-size: 15px;
+        margin-left: 15px;
+
+      }
+      
+      #logo {
+        width: 115px; 
+      }
+      
+      .nav-menu a:hover {
+        color: white;
+        text-decoration: none;
+        transition: 0.3s ease;
+      }
+
+           
+.specials {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .item {
+    width: 400px;
+    margin: 20px;
+  }
+
+  .item img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  #img1
+  {
+    height: 600px;
+    border-top: 1px solid #f1ac35;
+    border-left: 1px solid #f1ac35;
+    border-right: 1px solid #f1ac35;
+  }
+
+  #img2, #img3
+  {
+    height: 220px;
+    border-top: 1px solid #f1ac35;
+    border-left: 1px solid #f1ac35;
+    border-right: 1px solid #f1ac35;
+  }
+
+  .description {
+    font-family: 'Avalon Md Cd';
+    src: url('Avalon-MediumCond.ttf') format('truetype');
+    background-color: #f1ac3592;
+    color: white;
+    padding: 10px;
+    border-radius: 0 0 15px 15px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+}
+
+/* Medium device */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    #header-img {
+        width: 100%;
+        height: 500px;
+        filter: blur(3px);
+        -webkit-filter: blur(3px);
+        opacity: 65%;
+    }
+
+    .header-text {
+        position: absolute;
+        top: 33%;
+        left: 8%;
+        text-align: center;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    body {
+        line-height: 30px;
+        background-color: black;
+    }
+
+    section, footer {
+        margin-top: 120px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    h1, h2, h3, h4, p {
+        color: white;
+    }
+
+    h3, p {
+        text-align: center; 
+    }
+
+    p {
+        font-family: 'Avalon';
+        letter-spacing: 1px;
+        font-size: 16px; 
+    }
+
+    h3 {
+        font-size: 30px; 
+        font-family: 'Aladin';
+        letter-spacing: 3px;
+        font-weight: 600;
+        color: #f1ac35;
+    }
+
+    .icon-text {
+        display: block; 
+        text-align: center;
+    }
+
+    .icon-text i {
+        font-size: 20px;
+        padding-right: 0;
+        padding-bottom: 5px;
+    }
+
+    .header-text h1 {
+        font-family: 'Aladin';
+        font-size: 50px; 
+        font-weight: 500;
+        padding-top: 15px;
+        color: #f1ac35;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .header-text p {
+        font-size: 30px;
+        padding-top: 10px;
+        font-family: "Aladin", system-ui;
+        letter-spacing: 2px;
+        line-height: 50px;
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .know-us {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+
+    .mission, .vision {
+        border: 1px solid #f1ac35;
+        box-shadow: 0 2px 2px 0 #f1ac35b8, 0 2px 8px 0 #f1ac3572;
+        height: 225px;
+        max-width: 45%;
+        margin-top: 30px; 
+        cursor: pointer;
+        padding: 20px;
+    }
+
+    i {
+        color: #f1ac35;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        height: 50px; 
+    }
+
+    .footer .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .footer .row a {
+        text-decoration: none;
+        margin: 0 5px; 
+    }
+
+    .footer .row a i {
+        font-size: 20px; 
+        padding: 5px; 
+        color: #f1ac35;
+    }
+
+    .footer .row a i:hover {
+        color: white;
+        transition: 0.3s ease;
+    }
+
+    header {
+        position: relative;
+        text-align: center;
+    }
+    .navbar {
+        height: 60px;
+        background-color: rgba(0, 0, 0, 0.600);
+        backdrop-filter: blur(5px);
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        position: fixed;
+        z-index: 100;
+      }
+      
+      .nav-menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+      }
+      
+      .nav-menu a {
+        font-family: 'Avalon';
+        src: url('Avalon-Book.ttf') format('truetype');
+        font-weight: normal;
+        color: #f1ac35;
+        font-size: 18px;
+        margin-left: 20px;
+
+      }
+      
+      #logo {
+        width: 125px; 
+      }
+      
+      .nav-menu a:hover {
+        color: white;
+        text-decoration: none;
+        transition: 0.3s ease;
+      }
+
+      
+.specials {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .item {
+    width: 400px;
+    margin: 20px;
+  }
+
+  .item img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  #img1
+  {
+    height: 600px;
+    border-top: 1px solid #f1ac35;
+    border-left: 1px solid #f1ac35;
+    border-right: 1px solid #f1ac35;
+  }
+
+  #img2, #img3
+  {
+    height: 220px;
+    border-top: 1px solid #f1ac35;
+    border-left: 1px solid #f1ac35;
+    border-right: 1px solid #f1ac35;
+  }
+
+  .description {
+    font-family: 'Avalon Md Cd';
+    src: url('Avalon-MediumCond.ttf') format('truetype');
+    background-color: #f1ac3592;
+    color: white;
+    padding: 10px;
+    border-radius: 0 0 15px 15px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+}
+
+/*  Large devices */
+@media only screen and (min-width: 1200px) {
+    #header-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .header-text
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 80%;
+    }
+
+    body 
+{
+    line-height: 40px;
+    background-color: black;
+}
+
+section, footer
+{
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+h1, h2, h3, h4, p
+{
+    color: white;
+}
+
+h3, p 
+{
+    text-align: center;
+}
+
+p
+{
+    font-family: 'Avalon';
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+h3 
+{
+    font-size: 35px;
+    font-family: 'Aladin';
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #f1ac35;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+}
+
+.icon-text i 
+{
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+#header-img
+{
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    opacity: 50%;
+    height: 760px;
+}
+
+.header-text h1 
+{
+    font-family: 'Aladin';
+    font-size: 70px;
+    padding-top: 50px;
+    color: #f1ac35;
+    letter-spacing: 2px;
+}
+
+.header-text p 
+{
+    font-size: 30px;
+    padding-top: 40px;
+    font-family: "Aladin", system-ui;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+
+i 
+{
+    color: #f1ac35;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 30px;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer .row a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer .row a i {
+    font-size: 30px;
+    padding: 10px;
+    color: #f1ac35;
+}
+
+.footer .row a i:hover
+{
+    color: white;
+}
+
+header 
+{
+    position: relative;
+    text-align: center;
+}
+
+.navbar 
+{
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.653);
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+}
+
+.nav-menu a 
+{
+    font-family: 'Avalon';
+src: url('Avalon-Book.ttf') format('truetype');
+font-weight: normal;
+color: #f1ac35;
+margin-left: 25px;
+font-size: 20px;
+}
+
+#logo
+{
+    width: 155px;
+}
+
+.nav-menu a:hover {
+    color: white;
+        text-decoration: none;
+        transition: 0.3s ease;
+}
+
+.specials {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .item {
+    width: 500px;
+    margin: 15px;
+  }
+
+  .item img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  #img1
+  {
+    height: 600px;
+    border-top: 2px solid #f1ac35;
+    border-left: 2px solid #f1ac35;
+    border-right: 2px solid #f1ac35;
+  }
+
+  #img2, #img3
+  {
+    height: 230px;
+    border-top: 2px solid #f1ac35;
+    border-left: 2px solid #f1ac35;
+    border-right: 2px solid #f1ac35;
+  }
+
+  .description {
+    font-family: 'Avalon Md Cd';
+    src: url('Avalon-MediumCond.ttf') format('truetype');
+    background-color: #f1ac3592;
+    color: white;
+    padding: 10px;
+    border-radius: 0 0 15px 15px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+}
+   
+
